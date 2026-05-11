@@ -1,0 +1,14 @@
+.sidebar {
+  width: 200px;
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  min-height: 100vh;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+}

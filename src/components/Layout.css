@@ -1,0 +1,61 @@
+/* Sidebar styling */
+.sidebar {
+  width: 240px;
+  background-color: #ffffff;
+  height: 100vh;
+  border-right: 1px solid #e5e7eb; /* light gray border */
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .MuiListItem-root {
+  padding: 12px 20px;
+}
+
+.sidebar .MuiListItem-root:hover {
+  background-color: #f5f5f5;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* AppBar (Top Navigation) */
+.appbar {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.appbar .toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Admin User Text */
+.admin-user {
+  font-weight: 500;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* Logout Button */
+.logout-btn {
+  text-transform: none;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  border: 1px solid #ef4444 !important;
+  color: #ef4444 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.logout-btn:hover {
+  background-color: #ef4444 !important;
+  color: white !important;
+}
+
+/* Main content area */
+.main-content {
+  flex-grow: 1;
+  padding: 24px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
