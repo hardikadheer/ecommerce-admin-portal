@@ -1,70 +1,181 @@
-# Getting Started with Create React App
+# Ecommerce Admin Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive Ecommerce Admin Dashboard built using **React.js**, **Node.js**, and **Express.js**.  
+This project allows administrators to efficiently manage products, users, inventory, and dashboard operations through an interactive admin interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Admin Authentication UI
+- Interactive Dashboard
+- Product Management System
+- Add / Edit / Delete Products
+- Product Search & Filtering
+- Inventory & Stock Management
+- User Management Table
+- Responsive Sidebar Navigation
+- Backend API Integration
+- CRUD Operations
+- Clean & Modern UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
+- Node.js
+- Express.js
 
-### `npm run build`
+### Database
+- MongoDB
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tools & Libraries
+- Axios
+- Material UI
+- React Router DOM
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```text
+ecommerce-admin-portal/
+│
+├── public/
+├── screenshots/
+├── server/
+│   ├── server.js
+│   ├── package.json
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── utils/
+│
+├── package.json
+├── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Clone Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/hardikadheer/ecommerce-admin-portal.git
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Frontend Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+npm start
+```
 
-### Code Splitting
+Frontend runs on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```text
+http://localhost:3000
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Backend Setup
 
-### Making a Progressive Web App
+```bash
+cd server
+npm install
+node server.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Backend runs on:
 
-### Advanced Configuration
+```text
+http://localhost:5000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+# Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Login Page
+![Login Page](./screenshots/login-page.png)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## Products Page
+![Products](./screenshots/products.png)
+
+---
+
+## Add Product Page
+![Add Product](./screenshots/add-product.png)
+
+---
+
+## Users Page
+![Users](./screenshots/users.png)
+
+---
+
+# Future Improvements
+
+- JWT Authentication
+- Role-Based Access Control
+- Product Image Upload
+- Revenue Analytics Dashboard
+- Sales Charts & Graphs
+- Order Management System
+- Dark Mode
+- Real-time Notifications
+- Payment Gateway Integration
+- Mobile Responsive Optimization
+
+---
+
+# Learning Outcomes
+
+Through this project, I gained hands-on experience with:
+
+- React Component Architecture
+- Frontend & Backend Integration
+- REST APIs
+- CRUD Operations
+- State Management
+- Responsive UI Design
+- Git & GitHub Workflow
+- Full Stack Project Structure
+
+---
+
+# Author
+
+## Hardika Dheer
+
+B.Tech CSE (AI/ML) Student  
+Frontend & Full Stack Development Enthusiast
+
+GitHub: https://github.com/hardikadheer
+
+---
+
+# Repository Link
+
+https://github.com/hardikadheer/ecommerce-admin-portal
